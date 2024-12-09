@@ -1,0 +1,36 @@
+---
+title: "HW6"
+output: pdf_document
+date: "2023-10-21"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Assignmnet 6: Risk Management
+
+**Initial Set up 
+```{r cars}
+set.seed(903776309)
+
+# Generating a random number in the interval (1980, 2001)
+random_number <- runif(1, min = 1980, max = 2001)
+
+# Printing the seed and random number
+cat("Seed: 903776309\nRandom Number:", random_number)
+
+start_year <- random_number
+end_year <- random_number + 10
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
