@@ -1,2 +1,2 @@
 # Management-of-Financial-Institutions
-Hell on earth is real and it is this class
+Evil is reall and it has manifested itself into these insane assignments that take years off of your life 
